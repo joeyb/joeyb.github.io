@@ -38,7 +38,7 @@
 
 	<p>I really hate hard-coding values into applications. Inevitably requirements change and it's generally much easier to just change a value in the web.config than to re-build and deploy new code. Because of that, I like to make heavy use of config files.</p>
 
-<p>In order to avoid the pitfalls that I mentioned in my article on <a href="/2012/01/25/tight-coupling-a-brownfield-project-nightmare.html">tight coupling</a>, I've built an <code>IConfigService</code> implementation that exposes the needed functionality and an <code>AppSettingsConfigService</code> implementation of that interface. In my case, all I care about is fetching values from the config (as opposed to storing values back in the config) so this is the interface that I use:</p>
+<p>In order to avoid the pitfalls that I mentioned in my article on <a href="/2012/01/25/tight-coupling-a-brownfield-project-nightmare.html">tight coupling</a>, I've built an <code>IConfigService</code> interface that exposes the needed functionality and an <code>AppSettingsConfigService</code> implementation of that interface. In my case, all I care about is fetching values from the config (as opposed to storing values back in the config) so this is the interface that I use:</p>
 
 <script src='https://gist.github.com/1683091.js?file=473b891e37f8b6a2e7cd05feb21d9ce942905a3f'></script>
 
