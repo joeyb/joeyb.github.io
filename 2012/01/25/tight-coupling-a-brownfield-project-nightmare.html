@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Tight Coupling: A Brownfield Project Nightmare</title>
+   <meta name="author" content="Joey Bratton" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-8032568-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Joey Bratton</a>
+  </div>
+  
+  <div id="post">
+
+	<h1>Tight Coupling: A Brownfield Project Nightmare</h1>
+	
+	<p class="meta">25 January 2012</p>
+
+	<p>As a consultant, I get the opportunity to work on projects that are at all points of the Greenfield/Brownfield spectrum. Some developers take pride in revamping an old project, fixing architectural/design issues, and cleaning up other people's messes. I am <strong>not</strong> one of those developers. When I unfortunately land on a Brownfield project, the largest pain points almost always boil down to one design problem: <a href="http://en.wikipedia.org/wiki/Coupling_(computer_programming)">Tight Coupling</a>.</p>
+
+<p>In short, tight coupling results when lots of unrelated pieces of code directly depend on each other and changes to any one object would result in a large number of other changes throughout the project. In an object oriented project there will always be some coupling because objects need to communicate. One of the main goals when architecting a project should be to use whatever idioms/patterns your language of choice provides to minimize coupling. Tight coupling leads to brittle code that may be quick to initally develop, but is a complete nightmare to extend and maintain.</p>
+
+<p>What amazes me is the number of "senior" developers who still write code with major coupling issues. I think the problem stems from the fact that many developers are shortsighted, especially in the consulting world. I hear a lot of programmers talk about optimizing code for performance, or learning new techniques/libraries that speed up initial development, but what should be most important is writing code that is highly adaptable and will be easy to change in the future. If I've learned anything from consulting, it's that no spec is concrete and what is true today will almost certainly differ from what is true tomorrow.</p>
+
+<p>So how do you avoid coupling issues? Learn, understand, and practice the <a href="http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)">SOLID principles</a>. I can't emphasize enough how important I think applying SOLID is to any software project. <a href="http://lostechies.com/derickbailey/2009/02/11/solid-development-principles-in-motivational-pictures/">There</a> is a <a href="http://trycatchfail.com/blog/post/SOLID-Things-Every-Senior-NET-Developer-Should-Know-Part-2.aspx">plethora</a> of <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">great</a> <a href="http://confreaks.com/videos/240-goruco2009-solid-object-oriented-design">articles</a> on SOLID and I implore every developer to at least be familiar with each of the principles.</p>
+
+<p>Most projects are not finite in scope. Learning and implementing strategies that help apply the SOLID principles (i.e. programming to an interface, duck typing, DI/IoC, etc.) may not show immediate results, but when you go to change that code months/years down the road it will be much easier if you have avoided tight coupling. Your project will be less brittle and changes to any given object will have a much smaller impact on surrounding code.</p>
+
+	
+</div>
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Joey Bratton<br />
+        Software Developer at <a href="http://ignew.com/">igNew, LLC.</a><br />
+        joey@joeyb.org
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+        <a href="http://github.com/joeyb/">github.com/joeyb</a><br />
+        <a href="http://twitter.com/joeybratton/">twitter.com/joeybratton</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
