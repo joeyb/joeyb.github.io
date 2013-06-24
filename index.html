@@ -1,0 +1,15 @@
+---
+layout: default
+title: Joey Bratton
+---
+
+{% for post in site.posts %}
+    <div class="row post">
+        <div class="small-2 columns">
+            <span class="date">{{ post.date | date_to_string }}</span> &raquo;
+        </div>
+        <div class="small-10 columns">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+    </div>
+{% endfor %}

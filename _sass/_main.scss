@@ -1,0 +1,39 @@
+$header-text-color: #fff;
+$footer-text-color: #666;
+$header-background-color: #464646;
+$footer-background-color: #fff;
+
+html {
+  background-color: $footer-background-color;
+}
+
+header {
+  color: $header-text-color;
+  background-color: $header-background-color;
+  border-bottom: 1px solid darken($header-background-color, 20%);
+  @include box-shadow(inset 0 20px 20px -20px darken($header-background-color, 10%), inset 0 -20px 20px -20px darken($header-background-color, 10%));
+  padding: 20px 0;
+
+  a, a:hover {
+    color: $header-text-color;
+  }
+}
+
+footer {
+  color: $footer-text-color;
+  background-color: $footer-background-color;
+  padding: 20px 0;
+
+  > .row:first-child {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+
+  a, a:hover {
+    color: $footer-text-color;
+  }
+}
+
+#mainContent {
+  padding: 60px 0;
+}

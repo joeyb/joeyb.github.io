@@ -1,0 +1,8 @@
+.post {
+    margin-bottom: 10px;
+
+    .date {
+        color: lighten($body-font-color, 20%);
+        font-family: $code-font-family;
+    }
+}
