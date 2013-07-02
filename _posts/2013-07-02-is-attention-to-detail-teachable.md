@@ -22,10 +22,12 @@ Given a developer in that situation, how do you teach them attention to detail? 
 interesting [Programmers Stack Exchange question][2] about learning how to pay more attention to
 detail, but I have found little advice around the web on how to teach that skill and why it is truly
 important to someone else. I think the problem is that it requires foresight and it is difficult to
-immediately show demonstable benefits. I would love to hear stories of methods used to help teach an
+immediately show demonstrable benefits. I would love to hear stories of methods used to help teach an
 otherwise talented developer the importance and value of really paying attention to detail.
 
+[Discuss on Hacker News][3]
 
 
 [1]: http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
 [2]: http://programmers.stackexchange.com/questions/107305/how-to-pay-more-attention-to-detail-as-a-developer
+[3]: https://news.ycombinator.com/item?id=5978095
