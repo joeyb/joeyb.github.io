@@ -2,7 +2,6 @@
 layout: post
 title: "Is Attention to Detail Teachable?"
 tags: [programming]
-published: false
 ---
 
 It has been my experience that the single largest factor in determining the talent level and/or
