@@ -14,7 +14,7 @@ framework would pose too large of a learning curve. The biggest benefit to using
 a developer relatively new to JavaScript is its explicitness, but that also leads to a TON of
 boilerplate code that is either minimized or eliminated in more advanced frameworks.
 
-## Coordinating Data Loading
+#### Coordinating Data Loading
 
 Our biggest pain point has been related to loading up all the data needed for a particular
 page/module and being able to wait for those calls to fully resolve before considering the
@@ -42,7 +42,7 @@ that count is greater than 0 then we know there is still an active ajax request.
 feels brittle and I'm not 100% happy with the implementation, but it works for now and it
 involved less invasive changes than building out the full view life-cycle described above.
 
-## Backbone.Model
+#### Backbone.Model
 
 The model is the one piece of Backbone that is really opinionated, and we have ended up spending
 more time fighting those opinions than taking advantage of them.
@@ -54,7 +54,7 @@ custom response parser. At this point I strongly prefer Angular's approach to ha
 lower-level `$http` service and a higher-level `$resource` service built on top of it with
 enhancements for interacting RESTful services.
 
-## Prototypal Inheritance Is Evil
+#### Prototypal Inheritance Is Evil
 
 Google's JavaScript style guide encourages developers to avoid prototypal inheritance wherever
 possible. For developers coming from other languages (especially C#), this may seem counterintuitive.
@@ -75,7 +75,7 @@ JavaScript I've had much better luck prefering composition over inheritance. Com
 only possible when given the right extension points and there are a lot of places in both Backbone
 and Marionette where those extension points aren't made available.
 
-## Conclusion
+#### Conclusion
 
 I still stand behind my initial reasoning for deciding to use Backbone, but in hindsight it may have
 been worth the increased learning curve for the team to use a framework like Angular that does a better
