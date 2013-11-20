@@ -81,3 +81,5 @@ I still stand behind my initial reasoning for deciding to use Backbone, but in h
 been worth the increased learning curve for the team to use a framework like Angular that does a better
 job of handling these pain points. In my experience with Angular, we probably could have accomplished
 the same functionality in nearly half the lines of code because of all the boilerplate required by Backbone.
+
+[Discuss on Hacker News](https://news.ycombinator.com/item?id=6771539)
