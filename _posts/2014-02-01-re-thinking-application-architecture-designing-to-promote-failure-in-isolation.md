@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "Re-thinking Application Architecture: Designing to Promote Failure in Isolation"
 tags: 
