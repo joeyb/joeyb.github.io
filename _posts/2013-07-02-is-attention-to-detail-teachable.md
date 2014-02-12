@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Is Attention to Detail Teachable?"
-tags: [programming]
+tags: 
+  - programming
+published: true
 ---
 
 It has been my experience that the single largest factor in determining the talent level and/or
@@ -25,9 +27,6 @@ important to someone else. I think the problem is that it requires foresight and
 immediately show demonstrable benefits. I would love to hear stories of methods used to help teach an
 otherwise talented developer the importance and value of really paying attention to detail.
 
-[Discuss on Hacker News][3]
-
 
 [1]: http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
 [2]: http://programmers.stackexchange.com/questions/107305/how-to-pay-more-attention-to-detail-as-a-developer
-[3]: https://news.ycombinator.com/item?id=5978095
