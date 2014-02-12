@@ -1,7 +1,11 @@
 ---
 layout: post
 title: "Thoughts on Backbone and Marionette - 1 Year Later"
-tags: [backbone, javascript, marionette]
+tags: 
+  - backbone
+  - javascript
+  - marionette
+published: true
 ---
 
 I've been working on a large-scale Backbone/Marionette-based application for over a year now.
@@ -81,5 +85,3 @@ I still stand behind my initial reasoning for deciding to use Backbone, but in h
 been worth the increased learning curve for the team to use a framework like Angular that does a better
 job of handling these pain points. In my experience with Angular, we probably could have accomplished
 the same functionality in nearly half the lines of code because of all the boilerplate required by Backbone.
-
-[Discuss on Hacker News](https://news.ycombinator.com/item?id=6771539)
