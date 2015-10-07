@@ -1,3 +1,12 @@
+---
+published: true
+layout: post
+title: "Real World Dependency Injection"
+tags: 
+  - architecture
+  - dependency-injection
+---
+
 # Real World Dependency Injection
 
 Martin Fowler provides a [good overview of Dependency Injection and Inversion of Control](http://martinfowler.com/articles/injection.html),
