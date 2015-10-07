@@ -11,7 +11,7 @@ Martin Fowler provides a [good overview of Dependency Injection and Inversion of
 so I'll skip the overview and assume that you are familiar with both concepts.
 
 Most devs that I know who are familiar with DI tend to have strong feelings about it. Many of those feelings are negative because they've
-seen how easy it is to abuse DI. This is definitely a great power, great responsibility scenario, and using DI successfully requires a
+seen how easy it is to abuse DI. This is definitely a "great power, great responsibility" scenario, and using DI successfully requires a
 thorough understanding of the objects that you intend to inject. My goal here is to provide some guidelines for properly harnessing that
 power and avoiding common pitfalls.
 
