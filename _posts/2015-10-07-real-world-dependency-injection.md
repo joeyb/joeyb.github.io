@@ -7,8 +7,6 @@ tags:
   - dependency-injection
 ---
 
-# Real World Dependency Injection
-
 Martin Fowler provides a [good overview of Dependency Injection and Inversion of Control](http://martinfowler.com/articles/injection.html),
 so I'll skip the overview and assume that you are familiar with both concepts.
 
