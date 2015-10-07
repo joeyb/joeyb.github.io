@@ -17,7 +17,7 @@ power and avoiding common pitfalls.
 
 I'll use Java in my examples, but the same principals should apply to any language or DI framework.
 
-## Prefer Constructor Injection Wherever Possible
+#### Prefer Constructor Injection Wherever Possible
 
 Most DI frameworks provide a variety of methods for injecting objects (constructors, fields, methods, etc.). Constructor injection should be
 preferred because it leads to code that is less tightly coupled to your DI framework, and therefore easier to test in isolation and re-use
@@ -68,7 +68,7 @@ The constructor-based approach uses the type system to *force* users of that cla
 approach can lead to subtle bugs that only show up at runtime if a dev erroneously manually constructs an instance and neglects to set a
 required dependency. With the constructor-based approach, the compiler would prevent that type of error from ever happening.
 
-## Avoid Depending On Lifetimes/Scopes
+#### Avoid Depending On Lifetimes/Scopes
 
 Most DI frameworks provide some way to specify a dependency instance's lifetime. The main examples are per-lookup (new instance on every
 injection), singleton (same, single instance for every injection), and per-request (for web apps, same instance for every injection over
